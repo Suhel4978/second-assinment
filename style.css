@@ -1,0 +1,144 @@
+
+body{
+  margin:0;padding: 0;
+  background:white;
+  font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3{
+  text-transform: capitalize;
+}
+section{
+  margin-top: 80px;
+}
+.top_section{
+  margin-top: 40px;
+}
+.container {
+  width:80%;
+  margin: auto;
+  overflow: hidden;
+}
+.logo {
+  float: left;
+}
+.logo img{
+  width: 50px;
+  height: 50px;
+}
+nav {
+  float: right;
+}
+nav ul{
+  padding: 0;
+}
+nav ul li{
+  list-style-type: none;
+  float: left;
+}
+nav ul li a{
+  display: block;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.first_half{
+  width:40%;
+  float: left;
+}
+.second_half{
+  width:40%;
+  float: right;
+}
+.title{
+  text-transform: uppercase;
+  font-size: 60px;
+}
+span {
+  color:goldenrod;
+}
+p{
+  font-size: 16px;
+}
+.second_half img{
+  width: 100%;
+  margin-top: -270px;
+}
+
+.products {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ 
+
+}
+.product{
+  background:#FFFFFF;
+  margin: 15px;
+  padding:15px;
+  box-shadow: 0px 3px 16px lightgray;
+  border-radius: 20px;
+  
+}
+.product img{
+  width: 100%;
+  margin:auto;
+  background:lightgray;
+  border-radius: 20px;
+ 
+}
+.offer{ width: 420px; background:#fafa; padding:10px; margin: 20px; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px;
+  background:#FFFFFF;
+  box-shadow: 0px 3px 25px lightgray;
+}
+.offer img {
+  width: 78px;height: 82px;
+  float: left;
+  margin-top: 20px;
+  margin-right: 20px;
+  
+
+}
+
+.btn_style {
+  display: inline-block;
+  text-decoration: none;
+  width:120px;
+  padding:17px;
+  background:#8DA824 url(image/shopping-cart\ 1.png) no-repeat ;
+  background-size: 30px;
+  background-position: 10px 10px;
+  text-align: right;
+  font-size: 14px;
+  margin-top: 10px;
+  
+ color:white;
+  border-radius: 5px;
+  text-transform: uppercase;
+  
+}
+
+.price{
+  float: left;
+  margin-right:80px;
+  margin-top: 10px;
+}
+.price_btn{
+  float: right;
+}
+.price{
+  color:goldenrod;
+  font-size: 40px;
+}
+
+.service_left{
+  width:30%;
+  float: left;
+}
+.service_right{
+  width:50%;
+  float: right;
+}
+.service_right img{
+  width: 100%;
+  margin-top: 100px;
+  
+}
